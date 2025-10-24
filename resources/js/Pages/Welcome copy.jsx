@@ -1,8 +1,4 @@
 import { Head, Link } from '@inertiajs/react';
-import Carousel from '@/Components/Carousel';
-import Curiculo from '@/Components/Curiculo';
-import Multiple from '@/Components/Multiple';
-
 
 export default function Welcome({ auth, laravelVersion, phpVersion }) {
     const handleImageError = () => {
@@ -352,15 +348,6 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                     </div>
                                 </div>
                             </div>
-                        </main>
-                        <main className='py-6'>
-                            <Carousel></Carousel>
-                        </main>
-                        <main className="py-6">
-                            <Curiculo></Curiculo>
-                        </main>
-                        <main className="py-6">
-                            <Multiple></Multiple>
                         </main>
 
 
