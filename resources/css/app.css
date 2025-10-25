@@ -85,6 +85,12 @@
     object-fit: cover !important;
 }
 
+.img-fill {
+    width: 100% !important;
+
+    object-fit: contain !important;
+}
+
 .logo-l {
     width: 300px !important;
     max-height: 100px !important;

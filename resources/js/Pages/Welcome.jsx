@@ -68,7 +68,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                             </nav>
                         </header>
 
-                        <main className="mt-6">
+                        {/* <main className="mt-6">
                             <div className="grid gap-6 lg:grid-cols-2 lg:gap-8">
                                 <a
                                     href="https://laravel.com/docs"
@@ -353,13 +353,65 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                 </div>
                             </div>
                         </main>
+                         */}
                         <main className='py-6'>
                             <Carousel></Carousel>
+                        </main>
+                        <main className="py-6">
+                            <div className="max-w p-6 bg-white border border-gray-200 rounded-lg shadow">
+                                <h5 className="mb-2 text-4xl pb-4 font-bold text-center">Objective</h5>
+                                <p className="text-gray-700 italic">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                            </div>
                         </main>
                         <main className="py-6">
                             <Curiculo></Curiculo>
                         </main>
                         <main className="py-6">
+                            <h5 className="mb-2 text-4xl font-bold text-center pb-4">Skill & Competence</h5>
+                            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2 justify-center">
+                                <div class="max-w p-6 bg-white border border-gray-200 rounded-lg shadow">
+                                    {/* <h5 class="mb-2 text-2xl font-bold text-center">Objective</h5>
+                                <p class="text-gray-700 italic">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p> */}
+                                    {/* <h5 className="mb-2 text-2xl font-bold text-center">Skill Competence</h5> */}
+                                    <div className="">
+
+                                        <ul class="list-disc pl-5">
+                                            <li>Project Management</li>
+                                            <li>Administrative Management</li>
+                                            <li>Importance</li>
+                                            <li>Trainer</li>
+                                            <li>Project Business</li>
+                                            <li>Consulates</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="max-w p-6 bg-white border border-gray-200 rounded-lg shadow">
+                                    {/* <h5 class="mb-2 text-2xl font-bold text-center">Objective</h5>
+                                <p class="text-gray-700 italic">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p> */}
+                                    {/* <h5 className="mb-2 text-2xl font-bold text-center">Skill Competence</h5> */}
+                                    <div className="">
+
+                                        <ul class="list-disc pl-5">
+                                            <li>HTML</li>
+                                            <li>PHP</li>
+                                            <li>Laravel</li>
+                                            <li>CSS</li>
+                                            <li>Bootstrap</li>
+                                            <li>JSon</li>
+                                            <li>JQuery</li>
+                                            <li>JavaScript.</li>
+                                            <li>MySQL (XAMPP)</li>
+                                            <li>PostgreSQL (PgAdmin).</li>
+                                            <li>Microsoft Windows</li>
+                                            <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                                            <li>Desenho (Adobe Illustrator, Adobe Photoshop, e DrawIO)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+                        <main className="py-6">
+                            {/* <h5 class="mb-2 text-2xl font-bold text-center">Skill Competence</h5> */}
                             <Multiple></Multiple>
                         </main>
 
@@ -368,8 +420,8 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                             Laravel v{laravelVersion} (PHP v{phpVersion})
                         </footer>
                     </div>
-                </div>
-            </div>
+                </div >
+            </div >
         </>
     );
 }

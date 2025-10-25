@@ -12,7 +12,7 @@ export default function Carousel({
     // ...props
 }) {
     const settings = {
-        className: 'bg-white rounded-lg px-5 mx-5',
+        className: 'bg-white rounded-lg px-5',
         dots: true,
         infinite: true,
         slidesToShow: 1,
@@ -25,7 +25,7 @@ export default function Carousel({
     return (
         <Slider {...settings}>
             <div className='py-5 my-5'>
-                <img className="img-fit" src={"../../storage/images/produk/0YYl1CucuIyU4uhzIqjxyQn01579wYuQ09Qo9ady.jpg"} alt="" />
+                <img className="img-fit" src={"../../storage/images/produk/ban0.jpg"} alt="" />
                 <h1 className='my-4 text-xl font-semibold'>O que é Lorem Ipsum?</h1>
                 <p className='my-4 text-sm'>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
                 <Link href="#"
@@ -34,7 +34,7 @@ export default function Carousel({
                     <i className='fas fa-magnifying-glass px-1'></i>Read More</Link>
             </div>
             <div className='py-5 my-5'>
-                <img className="img-fit" src={"../../storage/images/produk/Blog-Cover-July-1.jpg"} alt="" />
+                <img className="img-fit" src={"../../storage/images/produk/ban1.jpg"} alt="" />
                 <h1 className='my-4 text-xl font-semibold'>O que é Lorem Ipsum?</h1>
                 <p className='my-4 text-sm'>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
                 <Link href="#"
@@ -43,7 +43,7 @@ export default function Carousel({
                     <i className='fas fa-magnifying-glass px-1'></i>Read More</Link>
             </div>
             <div className='py-5 my-5'>
-                <img className="img-fit" src={"../../storage/images/produk/0YYl1CucuIyU4uhzIqjxyQn01579wYuQ09Qo9ady.jpg"} alt="" />
+                <img className="img-fit" src={"../../storage/images/produk/ban2.jpg"} alt="" />
                 <h1 className='my-4 text-xl font-semibold'>O que é Lorem Ipsum?</h1>
                 <p className='my-4 text-sm'>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
                 <Link href="#"
@@ -52,7 +52,7 @@ export default function Carousel({
                     <i className='fas fa-magnifying-glass px-1'></i>Read More</Link>
             </div>
             <div className='py-5 my-5'>
-                <img className="img-fit" src={"../../storage/images/produk/0YYl1CucuIyU4uhzIqjxyQn01579wYuQ09Qo9ady.jpg"} alt="" />
+                <img className="img-fit" src={"../../storage/images/produk/ban3.jpg"} alt="" />
                 <h1 className='my-4 text-xl font-semibold'>O que é Lorem Ipsum?</h1>
                 <p className='my-4 text-sm'>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
                 <Link href="#"
@@ -61,7 +61,7 @@ export default function Carousel({
                     <i className='fas fa-magnifying-glass px-1'></i>Read More</Link>
             </div>
             <div className='py-5 my-5'>
-                <img className="img-fit" src={"../../storage/images/produk/0YYl1CucuIyU4uhzIqjxyQn01579wYuQ09Qo9ady.jpg"} alt="" />
+                <img className="img-fit" src={"../../storage/images/produk/ban4.jpg"} alt="" />
                 <h1 className='my-4 text-xl font-semibold'>O que é Lorem Ipsum?</h1>
                 <p className='my-4 text-sm'>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
                 <Link href="#"
@@ -70,7 +70,7 @@ export default function Carousel({
                     <i className='fas fa-magnifying-glass px-1'></i>Read More</Link>
             </div>
             <div className='py-5 my-5'>
-                <img className="img-fit" src={"../../storage/images/produk/0YYl1CucuIyU4uhzIqjxyQn01579wYuQ09Qo9ady.jpg"} alt="" />
+                <img className="img-fit" src={"../../storage/images/produk/ban5.jpg"} alt="" />
                 <h1 className='my-4 text-xl font-semibold'>O que é Lorem Ipsum?</h1>
                 <p className='my-4 text-sm'>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
                 <Link href="#"

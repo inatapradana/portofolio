@@ -8,9 +8,9 @@ export default function curiculo({
 }) {
     return (
         <div>
-            <h1 className="font-bold text-4xl  text-center" style={{
+            <h1 className="font-bold text-4xl  text-center pb-4" style={{
             }}>
-                Profesional Experience
+                Experiences
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-4">
                 <div className="grid grid-cols-1 items-center gap-1 py-10 lg:grid-cols-1">
@@ -82,7 +82,7 @@ export default function curiculo({
                 <div className="grid grid-cols-1 items-center gap-1 py-10 lg:grid-cols-1">
                     <h1 className="m-5 font-bold text-2xl text-center" style={{
                     }}>
-                        Profesional Experience
+                        Additional Experience
                     </h1>
 
                     <div className="card rounded-lg bg-white border border-left resume" style={{
