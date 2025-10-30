@@ -7,9 +7,13 @@
         }
     },
     "routes": [
+        // {
+        //     "src": "/resources/(css|js)/(.*)",
+        //     "dest": "public/$1/$2"
+        // },
         {
-            "src": "/resources/(css|js)/(.*)",
-            "dest": "public/$1/$2"
+            "src": "/resources/(.*)",
+            "dest": "js/$1/$2"
         },
         {
             "src": "/(.*)",
