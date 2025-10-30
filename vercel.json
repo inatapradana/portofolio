@@ -16,6 +16,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "portofolio-bice-xi.vercel.app",
+        "APP_KEY": "base64:ctebmElPwadw7m9NF2Zt+Rq2X0D6eW3MuEHsnoULJmQ=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
